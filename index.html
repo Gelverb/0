@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agoritmos de la guia - JS</title>
+</head>
+<body>
+    <script>
+        var a = 0;
+        var b = 0;
+        var suma = 0;
+        var resta = 0;
+        var multi = 0;
+        var divi = 0;
+        
+        a = parseFloat(prompt("Por favor ingrese el primer valor numerico"));
+        b = parseFloat(prompt("Por favor ingrese el segundo valor nuemrico"));
+        
+        suma = a + b;
+        resta = a - b;
+        multi = a * b;
+        divi = a / b;
+        
+        alert("El resultado de la suma es: " + suma)
+        alert("El resultado de la resta es: " + resta)
+        alert("El resultado de la multi es: " + multi)
+        alert("El resultado de la divi es: " + divi)
+        </script>
+
+    <script>
+        var nota1 = 0;
+        var nota1 = 0;
+        var nota1 = 0;
+        var nota1 = 0;
+        var nota1 = 0;
+        var promedio = 0;
+    
+        nota1 = parseFloat(prompt("Por favor ingrese la primera nota"));
+        nota2 = parseFloat(prompt("Por favor ingrese la segunda nota"));
+        nota3 = parseFloat(prompt("Por favor ingrese la tercera nota"));
+        nota4 = parseFloat(prompt("Por favor ingrese la cuarta nota"));
+        nota5 = parseFloat(prompt("Por favor ingrese la quinta nota"));
+    
+        promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
+        if (promedio <= 2.9) {
+            alert("REPROBO, su promedio es de: " + promedio);
+        } else {
+            alert("APROBO, su promedio es de: " + promedio)
+        </script>
+        
+        <script>        
+        var a = 0;
+        var b = 0;
+        var c = 0;
+
+        a = parseFloat(prompt("Por favor ingrese edad"));
+        b = parseFloat(prompt("Por favor ingrese el año actual"));
+
+        c = b - a;
+
+        alert("El año en que usted ancio es: " + c)
+        </script>
+
+        <button onclick="edad()">CALCULAR LA EDAD</button>
+        <button onclick="operacionesbasicas()">OPERACIONES MATEMATICAS</button>
+        <button onclick="promedio()">CALCULAR EL PROMEDIO</button>
+
+        <script src="algoritmos.js"></script>
+
+</body>
+</html>
